@@ -1,6 +1,4 @@
 # RECOGNIZE_DOGS_AND_CATS
-![image](https://github.com/user-attachments/assets/3c825749-92b9-47af-8e06-76e6e9a8c4fb)![image](https://github.com/user-attachments/assets/9318a2e9-af00-42d9-9a46-97a665be041d)
-Chỉ cần kéo thả bức bức ảnh vào, ứng dụng thú vị này sẽ phân biệt cho bạn biết con vật trong hình là chó hay mèo :D
 
 <p align="center">
     <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExeXU2bWFhY3dnZGEzc2ZlM2Z6M2Q3aXVxcXA3a3JpMnlkMWIyanQ5YSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/H1Uky4WIUSzYqqAajM/giphy.gif" />
@@ -15,9 +13,8 @@ Chỉ cần kéo thả bức bức ảnh vào, ứng dụng thú vị này sẽ 
 Tập dữ liệu dùng để xây dựng bài toán này gồm 25.000 hình ảnh với số lượng chó mèo bằng nhau.
 Tập dữ liệu có sẵn trên kaggle, có thể xem qua [ở đây](https://www.kaggle.com/c/dogs-vs-cats/data)
 
-# Huấn luyện mô hình
-(Huấn luyện theo data mẫu, độ chính xác 80%)
-Các bước huấn luyện mô hình như sau:
+## Huấn luyện mô hình (Huấn luyện theo data mẫu, độ chính xác 80%)
+### Các bước huấn luyện mô hình như sau:
 1. Nạp các thư viện cần thiết
 2. Xử lý dữ liệu để đưa vào huấn luyện
 3. Khởi tạo các layers cho mạng neural
@@ -27,7 +24,7 @@ Các bước huấn luyện mô hình như sau:
 
 Chi tiết các bước cụ thể các bạn có thể xem ở [dogvscat.ipynb](https://github.com/TheViet298/DogOrCat-AI/blob/master/dogvscat.ipynb)
 
-# Sử dụng mô hình CNN VÀ TKINTER  để huấn luyện và xây dựng giao diện 
+!! Sử dụng mô hình CNN VÀ TKINTER  để huấn luyện và xây dựng giao diện 
 ## Từ kết quả huấn luyện trên, xây dựng ứng dụng GUI để dự đoán hình ảnh
 Đầu tiên là import các thư viện cần thiết:
 
