@@ -1,0 +1,5 @@
+# Dog or Cat requirements.txt
+numpy==1.20.3
+keras==2.3.1
+pandas==1.2.4
+tensorflow==1.14.0
